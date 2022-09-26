@@ -24,24 +24,6 @@
 - salary — заработная плата клиента
 - churn — уходит или нет.
 
-Используемые библиотеки в работе:
-import pandas as pd  
-import numpy as np  
-
-# библиотеки для построения графиков
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
-
-# библиотеки для построения моделей и расчета метрик
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.utils.class_weight import compute_class_weight
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn.metrics import roc_auc_score, f1_score, recall_score, precision_score
-
-# библиотеки для проведения статистических тестов
-from statsmodels.stats.proportion import proportions_ztest
-from scipy.stats import mannwhitneyu, ttest_ind
+**Материалы**
+- Ссылка на презентацию: https://disk.yandex.ru/i/7NKVHtPCbCNLnQ
+- Ссылка на дашборд:  https://public.tableau.com/views/banc_for_project/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
